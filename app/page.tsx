@@ -1,3 +1,5 @@
+"use client";
+
 import Link from 'next/link';
 
 export default function HomePage() {
@@ -30,7 +32,7 @@ export default function HomePage() {
         </Link>
       </div>
 
-      {/* Basic styling for cards - ideally this would be in a CSS module or Tailwind config */} 
+      {/* Basic styling for cards - ideally this would be in a CSS module or Tailwind config */}
       <style jsx>{`
         .card {
           background-color: white;
